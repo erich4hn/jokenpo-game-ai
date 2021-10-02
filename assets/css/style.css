@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.main_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_elements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main_elements .main_elements_object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin: 30px 60px;
+    flex-wrap: wrap;
+}
+
+.main_elements .main_elements_object img {
+    width: 100%;
+    height: auto;
+    transition: 0.4s;
+}
+
+.main_elements .main_elements_object img:hover {
+    opacity: 0.5;
+    transition: 0.8s;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.main_response_choose {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.response_choose {
+    margin: 10px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.response_choose p {
+    margin-bottom: 30px;
+}
+
+.response_choose img {
+    width: 130px;
+    height: auto;
+}
+
+.main_response_game {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.network_neural {
+    margin-top: 50px;
+}

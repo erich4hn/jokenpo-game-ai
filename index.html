@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô - Com Inteligência Artificial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="main_area">
+        <section class="main_elements" id="main-elements">
+            <div class="main_elements_object">
+                <img src="assets/img/stone.png" alt="stone-element" data-element-game="stone">
+            </div>
+
+            <div class="main_elements_object">
+                <img src="assets/img/paper.png" alt="paper-element" data-element-game="paper">
+            </div>
+
+            <div class="main_elements_object">
+                <img src="assets/img/scissor.png" alt="scissor-element" data-element-game="scissor">
+            </div>
+        </section>
+
+        <section class="main_response_choose">
+            <div class="response_choose" id="response_choose_user">
+                <p>Você escolheu: <b id="object-choosed-user"></b></p>
+            </div>
+
+            <div class="response_choose" id="response_choose_ia">
+                <p>A IA escolheu: <b id="object-choosed-ia"></b></p>
+            </div>
+        </section>
+
+        <section class="main_response_game">
+            <div class="response_game" id="response_game">
+            </div>
+        </section>
+    </main>
+    <script src="assets/libraries/brain-browser.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
